@@ -39,6 +39,7 @@ export default function Answers({
                 return onSelect(answer);
               }}
               className={cssClass}
+              disabled={answerState !== ""}
             >
               {answer}
             </button>
